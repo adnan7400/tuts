@@ -1,0 +1,12 @@
+echo $PATH ------- for all path directories
+
+save below path command and directory in ~/.profile file
+export PATH=$PATH:/myNewDir
+
+then run the source command
+
+source ~/.profile
+
+check echo $PATH 
+
+/home/adnan7400/Android/Sdk

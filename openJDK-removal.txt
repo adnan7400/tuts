@@ -1,0 +1,6 @@
+sudo rm -rf /var/cache/oracle-jdk11-installer-local
+
+sudo rm /var/lib/dpkg/info/oracle*
+sudo apt purge oracle-java11-installer*
+sudo rm /etc/apt/sources.list.d/*java*
+sudo apt autoremove

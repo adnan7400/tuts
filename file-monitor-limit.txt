@@ -1,0 +1,4 @@
+You can set a new file monitor limit (temporary) with:
+
+sudo sysctl fs.inotify.max_user_watches=524288
+sudo sysctl -p

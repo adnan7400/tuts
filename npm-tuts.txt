@@ -1,0 +1,56 @@
+Node dependencies
+
+npm list - all depenedencies
+
+npm list --depth=0
+
+npm view list  //view registry info of a package
+
+npm view mongoose dependencies //only the dependencies
+
+npm view mongoose versions //history of all versions
+
+
+*****Update/Dependencies******
+
+npm outdated
+
+npm update  //only updates minor version updates
+
+sudo npm i -g npm-check-updates //use this package to check for major updates
+
+npm-check-updates //check all upgrades available
+
+ncu -u //check and update all upgrades available in package.json file
+
+npm i //run npm i to install all updates
+
+***Updated Dev dependencies*******
+
+npm i jshint --save-dev  //the flag makes it show these are developer dependencies, not for production
+
+
+****uninstall a package******
+
+npm un mongoose //uninstall the package
+
+****publish a package to npm registry*****
+
+npm adduser //create new account
+
+npm login //login to your account
+
+npm publish //publish the package. Must cd inside that folder. 
+
+****update package version****
+ 
+npm version major
+
+npm version minor
+
+npm version patch
+
+npm publish
+
+
+

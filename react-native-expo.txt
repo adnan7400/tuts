@@ -1,0 +1,4 @@
+React Native
+
+
+expo start --lan (to start app on expo client in phone)
