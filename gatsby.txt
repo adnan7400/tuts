@@ -1,0 +1,32 @@
+
+npm install --save-dev env-cmd      ///env-cmd npm package
+
+
+plugins - gatsby-source-fulesystem
+	  gatsby-transformer-remark
+	  gatsby-plugin-sharp 
+	  gatsby-remark-relative-images 
+	  gatsby-remark-images
+	  gatsby-source-contentful (cms)
+
+
+query {
+      allMarkdownRemark {
+        edges {
+          node {
+            frontmatter {
+              title
+              date
+            }
+          }
+        }
+      }
+    }
+
+node is a data structure for storing your data.Node from above graphql query.
+
+onCreateNode is an api that allows us to do something when that node when it is created.
+
+
+
+
